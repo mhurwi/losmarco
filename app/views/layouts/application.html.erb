@@ -9,7 +9,28 @@
 </head>
 <body>
 
+<!--  top nav 
+=========================================================-->
+<div class="navbar">
+	<div class="navbar-inner">
+		<div class="container">
+			<ul class="nav">
+				<li><%= link_to "Home", page_path(:id => "home" ) %></li>
+				<li><%= link_to "About", page_path(:id => "about" ) %></li>
+				<li><%= link_to "Work", page_path(:id => "work" ) %></li>
+				<li><%= link_to "Prices", page_path(:id => "prices" ) %></li>
+				<li><%= link_to "Contact", page_path(:id => "contact") %></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<!-- main content container
+	========================================================-->
+<div class="container">
 <%= yield %>
+</div>
 
 </body>
 </html>
