@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Losmarco</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application", 
+  		"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
