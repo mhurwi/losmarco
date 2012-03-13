@@ -5,5 +5,6 @@
  *= require_self
  *= require_tree . 
 */
+
 body { background-image: url('/assets/lightbg.png');}
-h1 { font-family: 'IM Fell English', serif;}
+h1, h2 { font-family: 'IM Fell English', serif;}
