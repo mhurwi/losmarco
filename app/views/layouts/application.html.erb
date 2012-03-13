@@ -8,34 +8,35 @@
 
 <link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
 
-<style>
-h1 { font-family: 'IM Fell English', serif;}
-</style>
 </head>
 <body>
 
-<!--  top nav 
-=========================================================-->
-<div class="navbar">
-	<div class="navbar-inner">
-		<div class="container">
-			<ul class="nav">
-				<li><%= link_to "Home", page_path(:id => "home" ) %></li>
-				<li><%= link_to "About", page_path(:id => "about" ) %></li>
-				<li><%= link_to "Work", page_path(:id => "work" ) %></li>
-				<li><%= link_to "Prices", page_path(:id => "prices" ) %></li>
-				<li><%= link_to "Contact", page_path(:id => "contact") %></li>
-			</ul>
+	<!--  top nav 
+	=========================================================-->
+	<header>	
+		<div class="container" style="padding-top:20px">
+			<div class="row">
+				<div class="span6">
+					<h1>Los Dos Marcos</h1>
+					<h6>Technology - Business - Design</h6>
+				</div>
+				<div class="span6">
+					<ul class="nav nav-pills pull-right">
+						<li><%= link_to "Home", page_path(:id => "home" ) %></li>
+						<li><%= link_to "About", page_path(:id => "about" ) %></li>
+						<li><%= link_to "Work", page_path(:id => "work" ) %></li>
+						<li><%= link_to "Prices", page_path(:id => "prices" ) %></li>
+						<li><%= link_to "Contact", page_path(:id => "contact") %></li>
+					</ul>
+				</div>
+			</div>
 		</div>
+	</header>
+	<!-- main content container
+		========================================================-->
+	<div class="container">
+	<%= yield %>
 	</div>
-</div>
-
-
-<!-- main content container
-	========================================================-->
-<div class="container">
-<%= yield %>
-</div>
 
 </body>
 </html>
