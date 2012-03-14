@@ -6,8 +6,20 @@
  *= require_tree . 
 */
 
-body { background-image: url('/assets/lightbg.png');}
+body { 
+	background-image: url('/assets/lightbg.png');
+}
+
+p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+
+
 h1, h2 { font-family: 'IM Fell English', serif;}
+
+
 
 footer {
 	background-color: #bfbfbf;
