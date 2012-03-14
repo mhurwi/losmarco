@@ -32,18 +32,66 @@
 			</div>
 		</div>
 	</header>
+
+
+
 	<!-- main content container
 		========================================================-->
 	<div class="container">
 	<%= yield %>
 	</div>
 
+
+
 	<!--  footer
 	=========================================================-->
 	<footer>
 		<div class="container">
-			<p>Copyright 2012 by Los Dos Marcos</p>
-		</div>
+			<div class="row">
+
+
+
+				<div class="span3">
+					<ul class="nav">
+						<li><%= link_to "Home", page_path(:id => "home" ) %></li>
+						<li><%= link_to "About", page_path(:id => "about" ) %></li>
+						<li><%= link_to "Work", page_path(:id => "work" ) %></li>
+						<li><%= link_to "Prices", page_path(:id => "prices" ) %></li>
+						<li><%= link_to "Contact", page_path(:id => "contact") %></li>
+					</ul>
+				</div>
+
+
+
+				<div class="span3">
+					<ul class="nav">
+						<li><%= link_to "Cantwell on LinkedIn" %></li>
+						<li><%= link_to "Cantwell's Blog" %></li>
+						<li><%= link_to "Cantwell on Twitter"  %></li>
+					</ul>
+				</div>
+
+
+
+				<div class="span3">
+					<ul class="nav">
+						<li><%= link_to "Hurwitz on LinkedIn"  %></li>
+						<li><%= link_to "Hurwitz's Blog" %></li>
+						<li><%= link_to "Hurwitz on Twitter" %></li>
+					</ul>
+				</div>
+
+
+
+				<div class="span3">
+					<ul class="nav">
+						<li>Copyright 2012 by Los Dos Marcos</li>
+					</ul>
+				</div>
+
+
+			</div><!-- end row -->
+		</div><!-- end footer container-->
 	</footer>
 
 </body>
