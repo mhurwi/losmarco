@@ -15,11 +15,12 @@ p {
 	line-height: 22px;
 }
 
+h1,h2 { font-family: 'IM Fell English', serif;}
 
-
-h1, h2 { font-family: 'IM Fell English', serif;}
-
-
+#port-thmbs {
+	padding-top:20px;
+	background-color:whiteSmoke;
+}
 
 footer {
 	background-color: #bfbfbf;
