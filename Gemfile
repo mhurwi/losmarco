@@ -5,12 +5,21 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+<<<<<<< HEAD
 gem 'sqlite3'
 gem 'high_voltage'
 gem 'jquery-rails'
 group :production do
 	gem 'pg'
 end
+=======
+
+gem 'high_voltage'
+gem 'jquery-rails'
+gem 'sqlite3'
+gem 'pg'
+
+>>>>>>> c96803aad8d523c937eeaef868c6eb1a8aef75bf
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
