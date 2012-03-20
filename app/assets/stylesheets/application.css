@@ -10,6 +10,10 @@ body {
 	background-image: url('/assets/lightbg.png');
 }
 
+header {
+	background: url('/assets/stars.jpg') top center no-repeat;
+}
+
 p {
 	font-size: 16px;
 	line-height: 22px;
