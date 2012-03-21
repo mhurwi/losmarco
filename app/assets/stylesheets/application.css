@@ -6,13 +6,16 @@
  *= require_tree . 
 */
 
+
 body { 
-	background-image: url('/assets/lightbg.png');
+		background: url(/assets/cloudystars.png) top center no-repeat,
+		url(/assets/lightbg.png);
 }
 
 header {
-	background: url('/assets/stars.jpg') top center no-repeat;
-}
+	height:400px;
+
+
 
 p {
 	font-size: 16px;
