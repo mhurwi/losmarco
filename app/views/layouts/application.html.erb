@@ -6,7 +6,8 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 
-<link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300,400' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -20,7 +21,7 @@
 					<%= image_tag "launchbrick.png"%>
 				</div>
 				<div class="span5">
-					<h1>Launch Brick Labs</h1>
+					<h1 style="color:#fff">Launch Brick Labs</h1>
 					<h6>Technology - Business - Design</h6>
 				</div>
 				<div class="span6">
@@ -34,7 +35,11 @@
 					</ul>
 				</div>
 			</div>
-		<div class="span12" style="text-align:center;color:#fff;padding-top:60px"><h1 style="font-size:6em;text-align:center;color:#fff">Ignite Your Business</h1></div>
+			<div class="row">
+				<div class="span12" style="text-align:center;color:#fff;padding-top:40px">
+					<h1 style="font-size:5em;color:#fff">Ignite Your Business</h1>
+				</div>
+			</div>
 	</div>
 
 	</header>
@@ -58,12 +63,13 @@
 
 
 				<div class="span3">
-					<ul class="nav">
-						<li><%= link_to "Home", page_path(:id => "home" ) %></li>
-						<li><%= link_to "Work", page_path(:id => "work" ) %></li>
-						<li><%= link_to "About", page_path(:id => "about" ) %></li>
-						<li><%= link_to "Process", page_path(:id => "process" ) %></li>
-						<li><%= link_to "Contact", page_path(:id => "contact") %></li>
+					<ul class="nav nav-pills pull-right">
+						<li><%= link_to "Home", ("/home") %></li>
+						<li><%= link_to "Services", ("/services") %></li>
+						<li><%= link_to "Work", ("/work") %></li>
+						<li><%= link_to "Process", ("/process") %></li>
+						<li><%= link_to "About Us", ("/about")%></li>
+						<li><%= link_to "Contact", ("/contact") %></li>
 					</ul>
 				</div>
 

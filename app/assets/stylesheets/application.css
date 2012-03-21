@@ -22,7 +22,7 @@ p {
 	line-height: 22px;
 }
 
-h1,h2 { font-family: 'IM Fell English', serif;}
+h1, h2 { font-family: 'Josefin Sans', sans-serif;font-weight: 400; }
 
 #port-thmbs {
 	padding-top:20px;
