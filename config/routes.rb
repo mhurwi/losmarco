@@ -1,12 +1,13 @@
 Losmarco::Application.routes.draw do
   resources :homes
 
-  match '/home' => 'home#home'
   match '/about' => 'home#about'
   match '/contact' => 'home#contact'
   match '/process' => 'home#our_process'
   match '/services' => 'home#services'
   match '/work' => 'home#work'
+
+   root :to => "home#home"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

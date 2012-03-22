@@ -6,12 +6,14 @@
  *= require_tree . 
 */
 
+
 body { 
-	background-image: url('/assets/lightbg.png');
+	background: url(/assets/mainbg.png) top center no-repeat
 }
 
 header {
-	background: url('/assets/stars.jpg') top center no-repeat;
+	height:400px;
+
 }
 
 p {
@@ -19,7 +21,10 @@ p {
 	line-height: 22px;
 }
 
-h1,h2 { font-family: 'IM Fell English', serif;}
+h1, h2 { 
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400; 
+}
 
 #port-thmbs {
 	padding-top:20px;
