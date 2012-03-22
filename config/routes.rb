@@ -1,6 +1,7 @@
 Losmarco::Application.routes.draw do
   resources :homes
 
+  match '/home' => 'home#home'
   match '/about' => 'home#about'
   match '/contact' => 'home#contact'
   match '/process' => 'home#our_process'
