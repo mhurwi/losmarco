@@ -7,6 +7,7 @@ Losmarco::Application.routes.draw do
   match '/process' => 'home#our_process'
   match '/services' => 'home#services'
   match '/work' => 'home#work'
+  match '/test' => 'home#test'
 
    root :to => "home#home"
 

@@ -18,4 +18,8 @@ class HomeController < ApplicationController
 	def work
 	end
 
+	def test
+		
+	end
+
 end
