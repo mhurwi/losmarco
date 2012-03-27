@@ -21,7 +21,7 @@ p {
 	line-height: 22px;
 }
 
-h1, h2 { 
+.gfont { 
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400; 
 }
@@ -33,4 +33,12 @@ h1, h2 {
 
 footer {
 	background-color: #bfbfbf;
+
 }
+
+h1.fontface {font: 18px/27px 'OrbitronMedium', Arial, sans-serif;letter-spacing: 0;}
+
+p.style1 {font: 18px/27px 'OrbitronLight', Arial, sans-serif;}
+p.style2 {font: 18px/27px 'OrbitronMedium', Arial, sans-serif;}
+p.style3 {font: 18px/27px 'OrbitronBold', Arial, sans-serif;}
+p.style4 {font: 18px/27px 'OrbitronBlack', Arial, sans-serif;}
