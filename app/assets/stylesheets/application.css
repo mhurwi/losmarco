@@ -7,13 +7,11 @@
 */
 
 
-body { 
+#landing { 
 	background: url(/assets/mainbg.png) top center no-repeat
 }
-
 header {
-	height:400px;
-
+	height:250px;
 }
 
 p {
@@ -21,7 +19,7 @@ p {
 	line-height: 22px;
 }
 
-.gfont { 
+h1 { 
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400; 
 }

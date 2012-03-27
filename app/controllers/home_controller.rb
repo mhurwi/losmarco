@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+	layout :resolve_layout
 
 	def home
 	end
@@ -22,4 +23,17 @@ class HomeController < ApplicationController
 		
 	end
 
+
+  private
+
+  def resolve_layout
+    case action_name
+    when "home"
+      "application"
+    when "about", "contact", "our_process", "services", "work"
+      "subpages"
+    else
+      "subpages"
+    end
+  end
 end
