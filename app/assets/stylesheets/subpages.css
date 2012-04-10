@@ -1,3 +1,11 @@
+#landing { 
+	background: url(/assets/mainbg.png) top center no-repeat
+}
+
+#subpages { 
+	background: url(/assets/mainbg.png) top center no-repeat
+}
+
 .subpage {
 	color: #fff;
 
