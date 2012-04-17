@@ -8,7 +8,8 @@ Losmarco::Application.routes.draw do
   match '/services' => 'home#services'
   match '/work' => 'home#work'
   match '/test' => 'home#test'
-
+  match '/inquiry' => 'home#inquiry'
+  
    root :to => "home#home"
 
   # The priority is based upon order of creation:

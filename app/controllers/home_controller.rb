@@ -19,8 +19,10 @@ class HomeController < ApplicationController
 	def work
 	end
 
-	def test
-		
+	def test		
+	end
+
+	def inquiry		
 	end
 
 
@@ -30,7 +32,7 @@ class HomeController < ApplicationController
     case action_name
     when "home"
       "application"
-    when "about", "contact", "our_process", "services", "work"
+    when "about", "contact", "our_process", "services", "work", "inquiry"
       "subpages"
     else
       "subpages"
