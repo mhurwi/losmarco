@@ -3,7 +3,8 @@
 
 <form class="well">
 	
-
+	<h2>You can start your online upgrades here, with a free consultation!</h2>
+	<p>Fill out this form.  We'll provide a free consultation and determine if we can be of further service.</p>
 	<h2>Web Design</h2>
 	<label>Do you need web design?</label>
 	 <label class="radio">
@@ -41,21 +42,63 @@
 
 	<h2>Marketing</h2>
 	<label>Do you need help marketing your online business?</label>
-		<label class="radio">
-      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-        Yes
-    </label>
-    <label class="radio">
-     <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-        No
-    </label>
+		<div class="control-group">
+			<label class="radio">
+	      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+	        Yes
+	    </label>
+	    <label class="radio">
+	     <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+	        No
+	    </label>
+  	</div>
     
 
 	<h2>Business Analysis</h2>
+	<label>Are you interested in a deep analysis of your business's financial situation?</label>
+	<div class="control-group">
+		<label class="radio">
+      <input type="radio" name="optionsRadiosOther" id="optionsRadios1" value="option1" checked>
+        Yes, I want insight into our costs and revenues.
+    </label>
+    <label class="radio">
+     <input type="radio" name="optionsRadiosOther" id="optionsRadios2" value="option2">
+        No, I know what our numbers are and what they mean.
+    </label>
+   </div>
+
+
+	<label>What sort of business do you run?</label>
+	<input type="text" class="span3" placeholder="We make widgets">
+
+
+
+<!-- cant figure out these radio buttons!!  -->
+	<label>What size business do you run?</label>
+	<div class="control-group">
+		<label class="radio">
+			<input type="radio" name"optionsRadiosAgain" id="businessSize1" value="businessSize1">Well established
+		</label>
+		<label class="radio">
+			<input type="radio" name"optionsRadiosAgain" id="businessSize2" value="businessSize2">Still adapting
+		</label>
+		<label class="radio">
+			<input type="radio" name"optionsRadiosAgain" id="businessSize3" value="businessSize3">Getting started
+		</label>
+</div>
+
 
 	<h2>Monthly Service</h2>
-
-
+	<label>Would you like ongoing monthly help with these activities?</label>
+	<ul class="unstyled">
+		<li><input type="checkbox">Managing my website</label></li>
+		<li><input type="checkbox">Measuring analytics</label></li>
+		<li><input type="checkbox">Creating online content</label></li>
+		<li><input type="checkbox">Website updates</label></li>
+		<li><input type="checkbox">Social media management</label></li>
+		<li><input type="checkbox">Executing a marketing initiative</label></li>
+		<li><input type="checkbox">Creating online promotions</label></li>
+	</ul>
 
 <button type="submit" class="btn">Get my quote!</button>
 </form>
