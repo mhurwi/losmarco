@@ -5,8 +5,6 @@ brick.png: brick-5bcb9f7bff49ffcae055244643af8d38.png
 cloudystars.png: cloudystars-4a42bf8c6bc3aca2c16236c7b15b8411.png
 earth.png: earth-c61c6f95a78b5d2374123fc303584fb8.png
 footer-bg.jpg: footer-bg-603be3d02983ac03373cabd9e146bbbe.jpg
-glyphicons-halflings-white.png: glyphicons-halflings-white-33137abcd2c204b90921315632a32a69.png
-glyphicons-halflings.png: glyphicons-halflings-16cd9c1e6492843e6e32e0ab12967378.png
 launchbrick.png: launchbrick-e9d62f3a84c9eb0b52d5765c45b8d716.png
 lightbg.png: lightbg-9f81db1a8ff0e26e3c0b6a143fbd0adf.png
 main-bg.png: main-bg-2439ea7178aff0b7281d24a6971b8691.png
@@ -25,8 +23,8 @@ screenshots/microsoft.jpg: screenshots/microsoft-095b831e2ad6bb42f0dcc06ba176775
 screenshots/wgt.jpg: screenshots/wgt-4c69995ef364d89f31dee29448769e29.jpg
 stars.jpg: stars-8638c702dcec10c6dee23a59a7358cbf.jpg
 sunrise.jpg: sunrise-db145c2d33400b36f8d3aa0399219f14.jpg
-application.js: application-37c396b77c6f0f28aaad616f53c8cbc3.js
-application.css: application-dbd98e8b372c24af7f4683834be195cb.css
+application.js: application-58a57fb2860a231fc52bed80bdaf7a2d.js
+application.css: application-9ac1f2fabc79ab1757729fc60bc635a0.css
 font/orbitron-black-webfont.eot: font/orbitron-black-webfont-d048ec84721930d8a83fd200e872d44b.eot
 font/orbitron-black-webfont.svg: font/orbitron-black-webfont-42f431697136ff24a515faa5b864d92d.svg
 font/orbitron-black-webfont.ttf: font/orbitron-black-webfont-9e6bb3b20b682d54f38c8f253a34d6bb.ttf
@@ -43,3 +41,10 @@ font/orbitron-medium-webfont.eot: font/orbitron-medium-webfont-848a8ebc22b7e6de6
 font/orbitron-medium-webfont.svg: font/orbitron-medium-webfont-89629c0bd8bcbdbe7b4dee3447bb242d.svg
 font/orbitron-medium-webfont.ttf: font/orbitron-medium-webfont-ae22ae29393635cfaa04b2820b90dac0.ttf
 font/orbitron-medium-webfont.woff: font/orbitron-medium-webfont-fbc733f8b80068c480ccc23f4818a67b.woff
+fontawesome-webfont.eot: fontawesome-webfont-45c557cf62986c31b46066d36d4e79af.eot
+fontawesome-webfont.svg: fontawesome-webfont-3d022ced103bef04e1220cf5fbbf8467.svg
+fontawesome-webfont.svgz: fontawesome-webfont-cb7e668ca613edf21bd3714225125c2e.svgz
+fontawesome-webfont.ttf: fontawesome-webfont-93fbf8b10cfd7ccf9aceb24aa633b229.ttf
+fontawesome-webfont.woff: fontawesome-webfont-634f9c55e82f4bbe029932e96981f89b.woff
+twitter/bootstrap/glyphicons-halflings-white.png: twitter/bootstrap/glyphicons-halflings-white-e23451ac566a4d7fadb125fe3954b58b.png
+twitter/bootstrap/glyphicons-halflings.png: twitter/bootstrap/glyphicons-halflings-4fae08ebae3831361244b6de0c6e950a.png
