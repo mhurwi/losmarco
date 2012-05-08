@@ -1,13 +1,21 @@
-<div class="navbar">
-	<div class="navbar-inner">
-		<div class="container">
-			<ul class="nav">
-				<li><%= link_to "Home", page_path(:id => "home" ) %></li>
-				<li><%= link_to "About", page_path(:id => "about" ) %></li>
-				<li><%= link_to "Work", page_path(:id => "work" ) %></li>
-				<li><%= link_to "Prices", page_path(:id => "prices" ) %></li>
-				<li><%= link_to "Contact", page_path(:id => "contact") %></li>
-			</ul>
-		</div>
-	</div>
-</div>
+		<!-- top nav with logo -->
+		<div class="container" style="padding-top:20px">
+			<div class="row">
+				<div class="span1">
+				</div>
+				<div class="span5">
+					<h1 class="fontface" style="color:#fff">Launch Brick Labs</h1>
+					<h6>Technology - Business - Design</h6>
+				</div>
+				<div class="span6">
+					<ul class="nav nav-pills pull-right">
+						<li><%= link_to "Home", ("/home") %></li>
+						<li><%= link_to "Services", ("/services") %></li>
+						<li><%= link_to "Work", ("/work") %></li>
+						<li><%= link_to "Process", ("/process") %></li>
+						<li><%= link_to "About Us", ("/about")%></li>
+						<li><%= link_to "Contact", ("/contact") %></li>
+					</ul>
+				</div>
+			</div><!-- end row -->
+		</div> <!-- end container -->
