@@ -4,7 +4,8 @@
 
 
 jQuery ->
-		$('#test-paragraph').click ->
-			$('#test-paragraph').toggleClass('bigger-test')
+		$('.test-paragraph').click ->
+			$('.test-paragraph').toggleClass('bigger-test')
+			console.log "You clicked something!"
 
 			

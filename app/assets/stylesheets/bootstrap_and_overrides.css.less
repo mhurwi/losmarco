@@ -3,6 +3,8 @@ body { padding-top: 60px; }
 
 @import "twitter/bootstrap/responsive";
 
+
+
 // Set the correct sprite paths
 @iconSpritePath: asset-path('twitter/bootstrap/glyphicons-halflings.png');
 @iconWhiteSpritePath: asset-path('twitter/bootstrap/glyphicons-halflings-white.png');
@@ -17,7 +19,7 @@ body { padding-top: 60px; }
 // Font Awesome
 @import "fontawesome";
 
-// Your custom LESS stylesheets goes here
+// Your custom LESS stylesheets go here
 //
 // Since bootstrap was imported above you have access to its mixins which
 // you may use and inherit here
@@ -27,3 +29,39 @@ body { padding-top: 60px; }
 //
 // Example:
 // @linkColor: #ff0000;
+
+
+#landing, #subpages { 
+	background: url(/assets/mainbg.png) top center no-repeat
+	}
+		
+p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+p.style1 {font: 18px/27px 'OrbitronLight', Arial, sans-serif;}
+p.style2 {font: 18px/27px 'OrbitronMedium', Arial, sans-serif;}
+p.style3 {font: 18px/27px 'OrbitronBold', Arial, sans-serif;}
+p.style4 {font: 18px/27px 'OrbitronBlack', Arial, sans-serif;}
+
+h1 { 
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400; 
+}
+
+h1.fontface {font: 18px/27px 'OrbitronMedium', Arial, sans-serif;letter-spacing: 0;}
+
+.main-nav{
+	padding-top:20px;
+	
+	h1 {
+		font-family: 'Orbitron', sans-serif;
+		font-size: 1.5em;
+		color:#fff;
+	}
+
+	h6 {
+
+	}
+}
