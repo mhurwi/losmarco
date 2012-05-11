@@ -1,13 +1,7 @@
 
 /*   For pages used by Home.Controller */
 
-
-
-/*   Styles that apply to both the landing page and the subpages go here, nested */
-#landing, #subpages { 
-	background: url(/assets/mainbg.png) top center no-repeat
-	}
-		
+/* global styles across all pages */		
 p {
 	font-size: 16px;
 	line-height: 22px;
@@ -21,35 +15,36 @@ p.style4 {font: 18px/27px 'OrbitronBlack', Arial, sans-serif;}
 h1 { 
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400; 
+
 }
 
 h1.fontface {font: 18px/27px 'OrbitronMedium', Arial, sans-serif;letter-spacing: 0;}
 
+
+/*  shared/_top-menu partial */
 .top-menu {
 	padding-top:20px;
 	
+	/* logo */
 	h1 {
 		font-family: 'Orbitron', sans-serif;
 		font-size: 1.5em;
 		color:#fff;
 	}
-
-	h6 {
-
-	}
-
 }
 
+/*   Styles that apply to both the landing page and the subpages go here, nested */
+#landing, #subpages { 
+	background: url(/assets/mainbg.png) top center no-repeat;
+
+	.blurb {
+		text-align:center;
+	color: white
+	}
+}
 
 /*  styles for just the landing page */
-#landing {
-	#blurb {
-		text-align:center;
-		color: white
-	}
-}
+#landing {}
 
 /*  styles for just the subpages */
-#subpages {
-
-}
+#subpages {}
